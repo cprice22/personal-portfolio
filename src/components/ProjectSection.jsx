@@ -6,7 +6,7 @@ const projects = [
     title: "TravelPal - Travel Discovery Web App",
     description:
       "A responsive app for exploring restaurants, hotels, and attractions.",
-    image: "/projects/project1.png",
+    image: `${import.meta.env.BASE_URL}projects/project1.png`,
     tags: ["React", "Vite", "Google Maps Platform"],
     demoUrl: "https://cprice22.github.io/travel-pal-fresh/",
     githubUrl: "https://github.com/cprice22/travel-pal-fresh",
@@ -16,7 +16,7 @@ const projects = [
     title: "Task Management Application",
     description:
       "A task management system, allowing users to add, edit, or delete tasks.",
-    image: "/projects/project2.png",
+    image: `${import.meta.env.BASE_URL}projects/project2.png`,
     tags: ["Java", "Spring Boot", "Docker"],
     demoUrl: null,
     githubUrl: "https://github.com/cprice22/task-management-app",
@@ -26,7 +26,7 @@ const projects = [
     title: "ZombieEscape",
     description:
       "A mobile zombie survival endless runner built with Unity and C#.",
-    image: "/projects/project3.png",
+    image: `${import.meta.env.BASE_URL}projects/project3.png`,
     tags: ["Unity", "C#"],
     demoUrl: null,
     githubUrl: "https://github.com/cprice22/ZombieEscape",
